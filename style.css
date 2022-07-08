@@ -121,7 +121,7 @@ section {
 blockquote {
   font-size: 1rem;
   font-weight: 500;
-  color: #000;
+  color: #a04ef6;
 }
 .pic img {
   height: 15rem;
@@ -185,9 +185,11 @@ blockquote {
 }
 
 /* Webdev page */
+.dev {
+  flex-wrap: wrap;
+}
 .devContainer img {
-  height: 25vh;
-  width: 25vw;
+  height: 20vh;
   opacity: 0.6;
   cursor: pointer;
   margin: 0.5rem;
